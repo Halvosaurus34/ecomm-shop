@@ -1,0 +1,22 @@
+{
+  "name": "ecomm-shop",
+  "version": "1.0.0",
+  "description": "ecommerce ",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halvosaurus34/ecomm-shop.git"
+  },
+  "author": "Levi Halvorson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Halvosaurus34/ecomm-shop/issues"
+  },
+  "homepage": "https://github.com/Halvosaurus34/ecomm-shop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

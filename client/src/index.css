@@ -1,5 +1,5 @@
 main {
-  min-height: 80vh;
+  min-height: 85vh;
 }
 
 .rating span {
@@ -18,4 +18,8 @@ h1 {
 h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
+}
+
+.nav {
+  margin-left: auto;
 }

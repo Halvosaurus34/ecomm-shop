@@ -23,3 +23,11 @@ h2 {
 .nav {
   margin-left: auto;
 }
+
+.deleteButton {
+  margin-left: 0.5rem;
+}
+
+.createProduct {
+  text-align: end;
+}

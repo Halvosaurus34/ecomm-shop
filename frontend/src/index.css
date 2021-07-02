@@ -72,6 +72,10 @@ h2 {
   margin-right: 0.8rem;
 }
 
+.buttonMarginTop {
+  margin-top: 0.5rem;
+}
+
 .searchButton {
   background-color: #ffce67;
 }

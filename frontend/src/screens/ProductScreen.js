@@ -209,6 +209,7 @@ const ProductScreen = ({ history, match }) => {
                       <Button
                         disabled={loadingProductReview}
                         type="submit"
+                        className="buttonMarginTop"
                         variant="primary"
                       >
                         Submit

@@ -18,24 +18,33 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar className="navBar" variant="light" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>Ruby Mercantile</Navbar.Brand>
+            <Navbar.Brand className="navTitle">Ruby Mercantile</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav ">
-            <Route render={({ history }) => <SearchBox history={history} />} />
-            <Nav className="ml-auto nav">
+            <Nav className="ml-auto nav navItems">
+              <Route
+                render={({ history }) => <SearchBox history={history} />}
+              />
+
               <LinkContainer to="/cart">
-                <Nav.Link>
+                <Nav.Link className="navItems">
                   <i className="fas fa-shopping-cart"></i> Cart
                 </Nav.Link>
               </LinkContainer>
               {userInfo ? (
-                <NavDropdown title={userInfo.name} id="username">
+                <NavDropdown
+                  title={userInfo.name}
+                  id="username"
+                  className="navItems"
+                >
                   <LinkContainer to="/profile">
-                    <NavDropdown.Item>Profile</NavDropdown.Item>
+                    <NavDropdown.Item className="navItems">
+                      Profile
+                    </NavDropdown.Item>
                   </LinkContainer>
                   <NavDropdown.Item onClick={logoutHandler}>
                     Logout

@@ -105,17 +105,17 @@ const OrderScreen = ({ match, history }) => {
                 <a href={`mailto:${order.user.email}`}>{order.user.email}</a>
               </p>
               <p>
-                <strong>Address:</strong>
+                <strong>Address: </strong>
                 {order.shippingAddress.address}, {order.shippingAddress.city}{" "}
                 {order.shippingAddress.postalCode},{" "}
                 {order.shippingAddress.country}
               </p>
               {order.isDelivered ? (
                 <Message variant="success">
-                  Delivered on {order.deliveredAt}
+                  Shipped on {order.deliveredAt.substring(0, 10)}
                 </Message>
               ) : (
-                <Message variant="danger">Not Delivered</Message>
+                <Message variant="danger">Not Shipped</Message>
               )}
             </ListGroup.Item>
 
@@ -126,7 +126,9 @@ const OrderScreen = ({ match, history }) => {
                 {order.paymentMethod}
               </p>
               {order.isPaid ? (
-                <Message variant="success">Paid on {order.paidAt}</Message>
+                <Message variant="success">
+                  Paid on {order.paidAt.substring(0, 10)}
+                </Message>
               ) : (
                 <Message variant="danger">Not Paid</Message>
               )}
@@ -219,7 +221,7 @@ const OrderScreen = ({ match, history }) => {
                       className="btn btn-block"
                       onClick={deliverHandler}
                     >
-                      Mark As Delivered
+                      Mark As Shipped
                     </Button>
                   </ListGroup.Item>
                 )}

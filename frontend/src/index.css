@@ -1,5 +1,5 @@
 /* 
-pink - #b5a7bf
+pink - #b5a7bf #d8adcf
 olive - #7f9f88
 gold - #aa8a51 
 background - #b9d9c4
@@ -10,6 +10,80 @@ main {
   min-height: 80vh;
 }
 
+.span1 {
+  position: fixed;
+  top: 100px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 45px solid #d8adcf;
+}
+.span2 {
+  position: fixed;
+  top: 140px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 45px solid #7f9f88;
+}
+
+.span3 {
+  position: fixed;
+  top: 180px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 45px solid #eebd68;
+}
+
+.span4 {
+  position: fixed;
+  top: 220px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 45px solid #d8adcf;
+}
+.span5 {
+  position: fixed;
+  top: 260px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 45px solid #7f9f88;
+}
+
+.span6 {
+  position: fixed;
+  top: 300px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 45px solid #eebd68;
+}
+
+.span7 {
+  position: fixed;
+  top: 340px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 45px solid #d8adcf;
+}
 .navTitle {
   font-family: "Josefin Slab", serif;
   font-weight: 500;
@@ -92,12 +166,10 @@ h2 {
 
 .searchBox {
   display: flex;
-  line-height: 0px !important;
 }
 
 .search {
   margin-right: 0.8rem;
-  line-height: 0px !important;
 }
 
 .buttonMarginTop {
@@ -108,7 +180,6 @@ h2 {
   background-color: white;
   font-family: "Josefin Slab", serif;
   font-size: 1.2rem;
-  line-height: 0px !important;
 }
 
 strong {

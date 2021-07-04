@@ -9,6 +9,13 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <Provider store={store}>
+    <div className="span1"></div>
+    <span className="span2"></span>
+    <span className="span3"></span>
+    <span className="span4"></span>
+    <span className="span5"></span>
+    <span className="span6"></span>
+    <span className="span7"></span>
     <App />
   </Provider>,
   document.getElementById("root")

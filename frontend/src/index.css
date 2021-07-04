@@ -77,6 +77,48 @@ h2 {
 .carousel a {
   margin: 0 auto;
 }
+
+.nav {
+  margin-left: auto;
+}
+
+.deleteButton {
+  margin-left: 0.5rem;
+}
+
+.createProduct {
+  text-align: end;
+}
+
+.searchBox {
+  display: flex;
+  line-height: 0px !important;
+}
+
+.search {
+  margin-right: 0.8rem;
+  line-height: 0px !important;
+}
+
+.buttonMarginTop {
+  margin-top: 0.5rem;
+}
+
+.searchButton {
+  background-color: white;
+  font-family: "Josefin Slab", serif;
+  font-size: 1.2rem;
+  line-height: 0px !important;
+}
+
+strong {
+  text-decoration: none;
+}
+
+.linkUnderline {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .carousel-caption h2 {
     font-size: 2.5vw;
@@ -96,36 +138,14 @@ h2 {
   }
 }
 
-.nav {
-  margin-left: auto;
-}
+@media (max-width: 991px) {
+  .searchBox {
+    display: flex;
+    margin: 1rem 0;
+  }
 
-.deleteButton {
-  margin-left: 0.5rem;
-}
-
-.createProduct {
-  text-align: end;
-}
-
-.searchBox {
-  display: flex;
-}
-
-.search {
-  margin-right: 0.8rem;
-}
-
-.buttonMarginTop {
-  margin-top: 0.5rem;
-}
-
-.searchButton {
-  background-color: white;
-  font-family: "Josefin Slab", serif;
-  font-size: 1.2rem;
-}
-
-strong {
-  text-decoration: none;
+  .deleteButton {
+    margin-top: 0.5rem;
+    margin-left: 0;
+  }
 }

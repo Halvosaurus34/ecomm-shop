@@ -14,7 +14,8 @@ const Meta = ({ title, description, keywords }) => {
 Meta.defaultProps = {
   title: "Ruby Mercantile",
   description: "We sell the best local products",
-  keywords: "farm, local, red deer, buy local, produce",
+  keywords:
+    "farm, local, red deer, buy local, produce, Ruby Mercantile, Ruby, Mercantile, Red Deer, ",
 };
 
 export default Meta;

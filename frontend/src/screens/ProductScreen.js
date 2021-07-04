@@ -83,7 +83,7 @@ const ProductScreen = ({ history, match }) => {
             </Col>
             <Col sm={12} md={12} lg={3}>
               <ListGroup variant="flush">
-                <ListGroup.Item>
+                <ListGroup.Item className="productScreenTitle">
                   <h3>{product.name}</h3>
                 </ListGroup.Item>
                 <ListGroup.Item>

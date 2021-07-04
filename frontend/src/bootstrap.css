@@ -248,7 +248,7 @@ sup {
 }
 
 a {
-  color: #78c2ad;
+  color: #7f9f88;
   text-decoration: none;
 }
 
@@ -5396,7 +5396,7 @@ fieldset:disabled .btn {
 
 .alert-info {
   color: white;
-  background-color: #aa8a51;
+  background-color: #a57b31;
   border-color: #a08048;
 }
 
@@ -8327,7 +8327,7 @@ fieldset:disabled .btn {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #78c2ad !important;
+  color: #7f9f88 !important;
 }
 
 .text-secondary {

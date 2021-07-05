@@ -13,9 +13,10 @@ const Meta = ({ title, description, keywords }) => {
 
 Meta.defaultProps = {
   title: "Ruby Mercantile",
-  description: "We sell the best local products",
+  description:
+    "Ruby Mercantile is a Sylvan Lake based shop that sells the best local produce, woodworks, and flowers!",
   keywords:
-    "farm, local, red deer, buy local, produce, Ruby Mercantile, Ruby, Mercantile, Red Deer, ",
+    "farm, local, red deer, buy local, produce, Ruby Mercantile, Ruby, Mercantile, buy local red deer, local business red deer, local business sylvan lake, buy red deer produce, sale red deer produce, woodworking, buy woodworking, Ruby Mercantile Red Deer, Ruby Mercantile Sylvan Lake, Sylvan Lake",
 };
 
 export default Meta;

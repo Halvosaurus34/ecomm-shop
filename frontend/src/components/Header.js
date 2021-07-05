@@ -24,7 +24,7 @@ const Header = () => {
             <Navbar.Brand className="navTitle">Ruby Mercantile</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav ">
+          <Navbar.Collapse id="basic-navbar-nav navCollapse">
             <Nav className="ml-auto nav navItems">
               <Route
                 render={({ history }) => <SearchBox history={history} />}
